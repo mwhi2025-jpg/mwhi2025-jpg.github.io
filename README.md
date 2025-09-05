@@ -6,4 +6,4 @@
       <p>The news letter talks about a local Tuscon Toy and Comic Expo and a Spirit Halloween opening for the Halloween season.</p>
 
   <h3>Unit 2<h3>
-    <h4><a href="/..code_projects/starter_gallery_website.html" target="_self">Starter Gallery</a></h4>
+    <h4><a href="code_projects/starter_gallery_website.html" target="_self">Starter Gallery</a></h4>
