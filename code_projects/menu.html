@@ -1,10 +1,13 @@
 <style>
 	section { width: 400px; height: 550px; background-size: 400px 550px; background-repeat: no repeat; 
-			margin: auto; border: 2px solid; rgb(31, 29, 19); background-color: rgb(230, 223, 193);}
-	div {width: 320px; height: 470px; background-color: rgb(237, 233, 211, 0.9); padding: 10px; border: 2px solid black; margin: 30px;
-    h1 {padding: 10px; border: 1px solid rgb(31, 29, 19); margin: 10px; text-align: center; text-color: rgb(31, 29, 21);}
+			margin: 50; border: 2px solid; rgb(31, 29, 19); background-color: rgb(230, 223, 193);}
+	div {width: 320px; height: 470px; background-color: rgb(237, 233, 211, 0.8); padding: 10px; border: 2px solid black; margin: 30px;}
+    h1 {padding: 5px; border: 1px solid rgb(31, 29, 19); margin: 5px; text-align: center; text-color: rgb(31, 29, 21);}
 	dt {font-size: 18px; text-color: rgb(31, 29, 19); font-weight:bold;}
 	dd {fond-size: 8px; text-color: rgb(31, 29, 19);}
+
+	.item {display:flex; justify-content: space-between; width: 100%; height: 20px; 
+		   background-color: transparent; padding: 0px; border: none; margin: 0px;}
 </style>
 
 <!DOCTYPE html>
@@ -23,8 +26,40 @@
 			<div>
             	<H1>Breakfast Entrees</H1>
             	<dl>
+					<div class="item">
+                		<dt>Stuffed Omlet</dt>
+						<dt>&dollar;5</dt>
+					</div>
+                	<dd>Omlet with bellpepers, cheese, and ham.</dd>
+					<div class="item">
+                		<dt>Breakfest Sandwhich</dt>
+						<dt>&dollar;7</dt>
+					</div>
+                	<dd>Egg and ham over a toasted bagel, served with a side of hashbrowns.</dd>
+            	</dl>
+				
+				<H1>Drinks</H1>
+				<dl>
+            	</dl>
+        	</div>
+		</section>
+
+		<!--lunch menu-->
+		<!--background image-->
+		<section style="background-image: url('https://the-public-domain-review.imgix.net/collections/martin-gerlach-festons/RP-F-2002-21-4-22.jpg?fit=clip&w=1036&h=800&auto=format,compress');">
+		
+			<!--panel over image, page title, and menu items-->
+			<div>
+            	<H1>Lunch Entrees</H1>
+            	<dl>
                 	<dt>Stuffed Omlet</dt>
                 	<dd>Omlet with bellpepers, cheese, and ham.</dd>
+            	</dl>
+
+				<H1>Apetisers</H1>
+				<dl>
+                	<dt>Parmasan Garlic Bread</dt>
+					<dd>Toasted garlic bread with parmasan cheese and marinara sauce.</dd>
             	</dl>
         	</div>
 		</section>
