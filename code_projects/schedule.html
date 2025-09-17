@@ -1,24 +1,41 @@
+<style>
+	.title {font-size: 24; background-color: orange;}
+	.sub_title {font-size: 16; background-color: red;}
+	.content {font-size: 12; background-color: yellow;
+</style>
+
 <!DOCTYPE html>
 <html lang=”en-US”>
     <head>
         <title>Schedule</title>
     </head>
     <body>
-        <table> 
-            <colgroup>
-	            <col>
-	            <col>
+		<table>
+		    <colgroup>
+	            <col class="sub_title">
+	            <col span="2" class="content">
             </colgroup>
-            <caption>Table Title</caption> 
-            <tr>
-	            <th>column<th>
-                <th>column<th>
-            </tr> 
-            <tr>
-	            <td>column</td> 
-	            <td>column</td> 
-            </tr>
-        </table
+			
+            <caption class="title">Table Title</caption> 
+			
+            <tr class="sub_title">
+    			<td>Cell 1</td>
+   				<td>Cell 2</td>
+   				<td>Cell 3</td>
+ 	 		</tr>
+				
+  			<tr>
+    			<td>Cell 1</td>
+   				<td>Cell 2</td>
+   				<td>Cell 3</td>
+ 	 		</tr>
+			
+  			<tr>
+    			<td>Cell 4</td>
+    			<td>Cell 5</td>
+    			<td>Cell 6</td>
+  			</tr>
+		</table>
 
         <hr/>
         <h3><a href="index.html" target="_self">Back to Hub Page</a></h3>
