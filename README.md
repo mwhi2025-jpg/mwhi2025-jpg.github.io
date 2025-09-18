@@ -14,3 +14,6 @@
     <h4><a href="code_projects/color_scheme.html" target="_self">Color Scheme</a></h4>
     <h4><a href="code_projects/menu.html" target="_self">Menu</a></h4>
     <h4><a href="code_projects/schedule.html" target="_self">Schedule</a></h4>
+
+  <h3>Unit 3<h3>
+    <h4><a href="code_projects/team_page.html" target="_self">Team Page</a></h4>
